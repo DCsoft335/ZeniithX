@@ -1,4 +1,8 @@
-:root {
+.html{
+    background-color: black;
+}
+
+  :root {
   --bg: #060b16;
   --bg-soft: #0b1530;
   --panel: rgba(8, 15, 32, 0.88);
