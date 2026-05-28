@@ -1,0 +1,96 @@
+body {
+  background-color: black;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+/* SECTION */
+.about-hero {
+  position: relative;
+  min-height: 100vh;
+  padding: 100px 0;
+  overflow: hidden;
+}
+
+/* EARTH IMAGE */
+.planet-bg {
+  position: absolute;
+  top: 50%;
+  right: -120px;
+  transform: translateY(-50%);
+  width: 500px;
+  opacity: 0.15;
+  z-index: 0;
+}
+
+/* CONTENT ABOVE IMAGE */
+.about-hero .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* MAIN HEADING */
+.main-heading {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+/* TEXT */
+.about-text {
+  max-width: 800px;
+  color: #cfcfcf;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+/* BOXES */
+.mission-box,
+.vision-box {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 15px;
+  padding: 30px;
+  backdrop-filter: blur(5px);
+  height: 100%;
+  transition: 0.3s ease;
+}
+
+/* HOVER */
+.mission-box:hover,
+.vision-box:hover {
+  transform: translateY(-5px);
+  background: rgba(255,255,255,0.08);
+}
+
+/* BOX TEXT */
+.mission-box p,
+.vision-box p {
+  color: #d0d0d0;
+  line-height: 1.8;
+  margin-top: 15px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+  .planet-bg {
+    width: 300px;
+    right: -100px;
+    opacity: 0.1;
+  }
+
+  .main-heading {
+    font-size: 42px;
+  }
+}
+
+#Planet{
+  position: relative;
+  height: 100vh;
+  width: 100vh;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: calc(00.18em);
+}
